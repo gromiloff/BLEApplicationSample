@@ -1,0 +1,283 @@
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.example.mytestapplication is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.example.mytestapplication#11355#256
+I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.example.mytestapplication#11355#0
+Connected to the target VM, address: 'localhost:59855', transport: 'socket'
+I/System.out: Debugger has connected
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1470)
+W/testapplicatio: Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+I/AwareBitmapCacher: init processName:com.example.mytestapplication pid=25380 uid=11355
+E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@eae07ee
+E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@698148f
+W/testapplicatio: Class com.ido.ble.logs.LogTool failed lock verification and will run slower.
+W/testapplicatio: Common causes for lock verification issues are non-optimized dex code
+W/testapplicatio: and incorrect proguard optimizations.
+I/IDO_CMD: [SET_PARA] setIsAutoSyncConfigIfReboot, true
+D/Realtek: debugEnabled=true, printLog=true, logTag=RTK, globalLogLevel=0x01
+D/RTK: [ (WriteLog.java:21)#Initialize ]mRetionDays=-1
+D/RTK: [ (WriteLog.java:45)#Initialize ]mRootDirName=com.example.mytestapplication
+V/RTK: [ (WriteLog.java:94)#Initialize ]mSaveLogDir=/storage/emulated/0/com.example.mytestapplication/saveLog/
+V/RTK: [ (WriteLog.java:66)#Q ]line: BtSnoopFileName=/data/log/bt/btsnoop_hci.log
+V/RTK: [ (WriteLog.java:124)#Initialize ]SYS_BTSNOOP_FILE_NAME=/data/log/bt/btsnoop_hci.log
+D/RTK: [ (WriteLog.java:17)#N ]createLogDir start
+D/RTK: [ (WriteLog.java:45)#N ]mkdirs false
+W/testapplicatio: Class com.realsil.sdk.core.bluetooth.GlobalGatt failed lock verification and will run slower.
+D/RTK: [ (GlobalGatt.java:44)#Initialize ]initialize success
+V/RTK: [ (Channel.java:2)#Initialize ]initialize...
+V/RTK: [ (RtkCore.java:140)#Initialize ]supportedABIS: [arm64-v8a, armeabi-v7a, armeabi]
+D/RTK: [ (RtkDfu.java:50)#Initialize ]{
+    APPLICATION_ID=com.realsil.sdk.dfu
+    VERSION=3.2.11-344
+    DEBUG=false
+    BUILD_TYPE=release
+    FLAVOR=
+    }
+D/RTK: [ (BluetoothProfileManager.java:32)#GetProfileProxy ]getProfileProxy 2 success
+D/RTK: [ (BluetoothProfileManager.java:32)#GetProfileProxy ]getProfileProxy 1 success
+D/RTK: [ (BluetoothProfileManager.java:32)#GetProfileProxy ]getProfileProxy 4 success
+E/BluetoothA2dpSink: Could not bind to Bluetooth A2DP Service with Intent { act=android.bluetooth.IBluetoothA2dpSink }
+D/RTK: [ (BluetoothProfileManager.java:32)#GetProfileProxy ]getProfileProxy 11 success
+E/BluetoothAvrcpController: Could not bind to Bluetooth AVRCP Controller Service with Intent { act=android.bluetooth.IBluetoothAvrcpController }
+D/RTK: [ (BluetoothProfileManager.java:32)#GetProfileProxy ]getProfileProxy 12 success
+I/[IDO_BLE_SDK] LogTool: init...
+I/SDK: solib init ok.
+I/DEBUG LOG: debug_log_init : is print = 1,is write file = 0,file path = 20221011, open  = 0
+I/DEBUG LOG: [protocol_data.c] [protocol_data_set_file_path] [line 45] protocol_data_set_file_path = /data/user/0/com.example.mytestapplication/files
+I/DEBUG LOG: [jni_protocol.cpp] [Java_com_veryfit_multi_nativeprotocol_Protocol_callBackEnable] [line 158] c lib init start
+I/DEBUG LOG: [jni_vm_obj.cpp] [jni_vm_obj_init] [line 120] jni_vm_obj_init env = 9B6C5460,obj = F5484BD4
+I/DEBUG LOG: [protocol.c] [protocol_init] [line 422] Protocol Init
+I/DEBUG LOG: [protocol.c] [protocol_init] [line 426] VERSION_DATE=20220404,VERSION_IS_RELEASE=0, VERSION_RELEASE_STRING = 1.0.7
+I/DEBUG LOG: [protocol_set_alarm.c] [protocol_set_alarm_init] [line 187] protocol_set_alarm_init
+I/DEBUG LOG: [protocol_set_alarm.c] [protocol_set_alarm_init] [line 189] protocol_set_alarm_init ok
+I/DEBUG LOG: [data_storage.c] [data_storage_read] [line 54] ERROR data_storage_read /data/user/0/com.example.mytestapplication/files/function_table
+I/DEBUG LOG: [data_storage.c] [data_storage_write] [line 44] data_storage_write /data/user/0/com.example.mytestapplication/files/function_table success
+I/DEBUG LOG: [protocol_func_table.c] [protocol_func_table_set] [line 482] func_table.call.v3_get_health_size_by_offset = 0
+I/DEBUG LOG: [data_storage.c] [data_storage_read] [line 54] ERROR data_storage_read /data/user/0/com.example.mytestapplication/files/function_table_ex
+I/DEBUG LOG: [data_storage.c] [data_storage_write] [line 44] data_storage_write /data/user/0/com.example.mytestapplication/files/function_table_ex success
+I/DEBUG LOG: [protocol_func_table.c] [protocol_func_table_judge_whether_need_sync_v2] [line 434] protocol_func_table_judge_whether_need_sync_v2 nwamtf v3_sports = 0, v3_sleep = 0,v3_hr_data = 0, BloodPressure = 0
+I/DEBUG LOG: [protocol_health.c] [protocol_health_init] [line 926] delay_exec_process_timer id = 6
+I/DEBUG LOG: [protocol_health.c] [protocol_health_init] [line 930] sync_guard_timer id = 7
+I/DEBUG LOG: [voice_ui_controll.c] [voice_ui_controll_init] [line 265] voice_file_tran_init
+I/DEBUG LOG: [voice_file_tran.c] [voice_file_tran_init] [line 780] voice_file_tran_init
+I/DEBUG LOG: [voice_file_tran.c] [clear_data] [line 140] clear_data=>>>>>>>>>>>
+I/DEBUG LOG: [jni_timer.cpp] [jni_timer_stop] [line 129] jni_timer_stop id = 8
+I/DEBUG LOG: [voice_file_tran_to_ble.c] [voice_file_tran_to_ble_init] [line 533] voice_file_tran_to_ble_init err = 0
+I/DEBUG LOG: [voice_file_tran_to_ble.c] [clean_state] [line 138] clean_state
+I/DEBUG LOG: [jni_timer.cpp] [jni_timer_stop] [line 129] jni_timer_stop id = 9
+I/DEBUG LOG: [jni_timer.cpp] [jni_timer_stop] [line 129] jni_timer_stop id = 0
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_init] [line 439] send_queue = 2
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 1, m_func_table_count = 0
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 2, m_func_table_count = 1
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 3, m_func_table_count = 2
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 9, m_func_table_count = 3
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 4, m_func_table_count = 4
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 5, m_func_table_count = 5
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 26, m_func_table_count = 6
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 6, m_func_table_count = 7
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 7, m_func_table_count = 8
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 8, m_func_table_count = 9
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 50, m_func_table_count = 10
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 10, m_func_table_count = 11
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 11, m_func_table_count = 12
+I/DEBUG LOG: [protocol_v3_notice_message.c] [protocol_v3_notice_message_init] [line 238] send_queue = 3
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 12, m_func_table_count = 13
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 13, m_func_table_count = 14
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 14, m_func_table_count = 15
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 15, m_func_table_count = 16
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 16, m_func_table_count = 17
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 17, m_func_table_count = 18
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 18, m_func_table_count = 19
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 66] vbus print info :
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 0:protocol write
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 1:sync_config
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 2:protocol sync config
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 3:protocol alarm set
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 4:protocol health
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 5:protocol voice ui controll
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 6:protocol voice file tran
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 7:voice file tran app to ble
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 8:protocol status
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 9:protocol switch
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 10:sync activity
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 11:data tran
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 12:protocol_spp_write
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 13:data tran
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 14:protocol v3 queue
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 15:protocol v3
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 16:protocol v3 health
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 17:protocol_v3_send_notice_vbus_init
+I/DEBUG LOG: [protocol_flash_log.c] [protocol_flash_log_init] [line 62] sync_guard_flash_timer id = 31
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 19, m_func_table_count = 20
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 20, m_func_table_count = 21
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 21, m_func_table_count = 22
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 22, m_func_table_count = 23
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 23, m_func_table_count = 24
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 24, m_func_table_count = 25
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 25, m_func_table_count = 26
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 27, m_func_table_count = 27
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 28, m_func_table_count = 28
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 48, m_func_table_count = 29
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 49, m_func_table_count = 30
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 51, m_func_table_count = 31
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 54, m_func_table_count = 32
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 53, m_func_table_count = 33
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 52, m_func_table_count = 34
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 55, m_func_table_count = 35
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 4097, m_func_table_count = 36
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 60, m_func_table_count = 37
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 57, m_func_table_count = 38
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 58, m_func_table_count = 39
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 59, m_func_table_count = 40
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 59, m_func_table_count = 41
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 96, m_func_table_count = 42
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 64, m_func_table_count = 43
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 16385, m_func_table_count = 44
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 16386, m_func_table_count = 45
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 61, m_func_table_count = 46
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 62, m_func_table_count = 47
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 114, m_func_table_count = 48
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 113, m_func_table_count = 49
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 112, m_func_table_count = 50
+I/DEBUG LOG: [protocol_v3_queue.c] [protocol_v3_queue_reg] [line 357] protocol_v3_queue_reg cmd id = 117, m_func_table_count = 51
+I/DEBUG LOG: [jni_protocol_voice_file_tran_to_ble.cpp] [jni_protocol_voice_file_tran_to_ble_vubs_init] [line 123] ---> init err_code = 0
+I/DEBUG LOG: [jni_json_ui_controll.cpp] [jni_json_ui_controll_init] [line 207] ---> init
+I/DEBUG LOG: [protocol_v3_base_sport_param_sort.c] [protocol_v3_base_sport_param_sort_evt_reg] [line 47] protocol_v3_base_sport_param_sort_evt_reg func = 0x77EF1418
+I/DEBUG LOG: [json_process.cpp] [jsonProcessSdkInit] [line 286] json_process_to_sdk_init
+I/DEBUG LOG: [json_process.cpp] [jsonProcessSdkInit] [line 288] json_process_vbus_init start
+I/DEBUG LOG: [json_process.cpp] [jsonProcessSdkInit] [line 290] json_process_vbus_init end
+I/DEBUG LOG: [jni_protocol.cpp] [Java_com_veryfit_multi_nativeprotocol_Protocol_callBackEnable] [line 216] c lib init ok
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 66] vbus print info :
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 0:protocol write
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 1:sync_config
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 2:protocol sync config
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 3:protocol alarm set
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 4:protocol health
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 5:protocol voice ui controll
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 6:protocol voice file tran
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 7:voice file tran app to ble
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 8:protocol status
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 9:protocol switch
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 10:sync activity
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 11:data tran
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 12:protocol_spp_write
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 13:data tran
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 14:protocol v3 queue
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 15:protocol v3
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 16:protocol v3 health
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 17:protocol_v3_send_notice_vbus_init
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 18:protocol flash log
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 19:jni voice file to ble-->
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 20:protocol_get
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 21:protocol send notice
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 22:jni switch data
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 23:jni weather
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 24:jni set
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 25:jni get
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 26:json process vbus get control
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 27:jni_v3_health
+I/DEBUG LOG: [vbus.c] [vbus_print_info] [line 70] 28:jni get
+I/DeviceSharedPreferences: sp_name = bind_info_default
+I/[BIND_UNBIND]: [SoLibInit] setMode(SYS_MODE_SET_NOBIND)
+I/DEBUG LOG: [jni_protocol.cpp] [Java_com_veryfit_multi_nativeprotocol_Protocol_SetMode] [line 245] SysModeSet = 0x0
+I/DEBUG LOG: [protocol_data.c] [protocol_set_mode] [line 25] set unbind mode
+I/DeviceSharedPreferences: sp_name = device_default
+I/Event: Log{mContent={device_version=null, __time__=1665481387, app_name=My_Test_Application_1.0, log_type=init, phone_type=android, device_name=null, device_id=null, phone_time_zone=Europe/Moscow, sdk_version=IDoBLELib-2.66.43, phone_name=COR-L29, device_mac_address=null, phone_version=9}}
+I/SDK: ido-ble-sdk init ok, version is 2.66.43,2022/0620/11:29
+I/SDK: initParam InitParam{log_save_path='null', log_save_days=0, soJinLogSavePath='', isNeedSoLibAutoSyncConfigIfReboot=true, isEnableLog=true, isSaveDeviceDataToDB=true, isEncryptedDBData=false, isEncryptedSPData=false, databaseName='null'}
+E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+D/ZrHung.AppEyeUiProbe: notify runnable to start.
+D/ZrHung.AppEyeUiProbe: Runnable thread started.
+D/IMonitor: Load library imonitor_jni
+E/: [ZeroHung]zrhung_get_config: Get config failed for wp[0x0102]
+W/ZrHung.AppEyeUiProbe: Failed to get config from zrhung
+D/BluetoothHeadset: Proxy object connected
+V/ActivityThread: Skipping new config:{1.0 ?mcc?mnc [ru_RU,en_RU,tr_RU,es_RU] ldltr sw360dp w360dp h750dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2340) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.7}, config:{1.0 ?mcc?mnc [ru_RU,en_RU,tr_RU,es_RU] ldltr sw360dp w360dp h750dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2340) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.7} for app:com.example.mytestapplication
+V/HwPolicyFactory: : success to get AllImpl object and return....
+V/ActivityThread: callActivityOnCreate
+W/testapplicatio: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+W/testapplicatio: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+W/testapplicatio: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+W/testapplicatio: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+I/HwApsImpl: APS: new HwApsImpl created
+V/HwWidgetFactory: : successes to get AllImpl object and return....
+D/TextView: get Display Panel Type is : 0
+I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=0, mNavBarShow=false, mIsFloating=false
+I/HwPhoneWindow: updateLayoutParamsColor true mSpecialSet=true, mForcedNavigationBarColor=false, navigationBarColor=fffcfcfc, mNavBarShow=false, mIsFloating=false
+W/testapplicatio: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+D/ActivityThread: add activity client record, r= ActivityRecord{dd19f49 token=android.os.BinderProxy@c9a0811 {com.example.mytestapplication/com.example.mytestapplication.MainActivity}} token= android.os.BinderProxy@c9a0811
+D/ZrHung.AppEyeUiProbe: notify runnable to start.
+D/OpenGLRenderer: Skia GL Pipeline
+I/HwSecImmHelper: mSecurityInputMethodService is null
+D/HwAppInnerBoostImpl: set config for com.example.mytestapplication BOOST_FLAG=false REPORT_DURATION_CLICK=1000 REPORT_TIMES_CLICK=3 REPORT_DURATION_SLIDE=5000 REPORT_TIMES_SLIDE=16
+D/OpenGLRenderer:   HWUI Binary is  enabled
+D/BluetoothA2dp: Proxy object connected
+D/RTK: [ (BluetoothProfileManager.java:23)#OnServiceConnected ]A2DP profile connected
+D/BluetoothHidHost: Proxy object connected
+D/RTK: [ (BluetoothProfileManager.java:23)#OnServiceConnected ]HID_HOST profile connected
+D/RTK: [ (BluetoothProfileManager.java:23)#OnServiceConnected ]HEADSET profile connected
+W/HiTouch_HiTouchSensor: depended package hiTouch does n't exist!
+I/HiTouch_HiTouchSensor: HiTouch restricted: system app HiTouch don't exist.
+D/HiTouch_PressGestureDetector: onAttached, package=com.example.mytestapplication, windowType=1, mHiTouchRestricted=true
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/iGraphics: [0020080c] pn: com.example.mytestapplication, p: 25380
+I/iGraphics: [0030080c] no spt app: com.example.mytestapplication
+I/OpenGLRenderer: Initialized EGL, version 1.4, mEglDisplay 0x1
+D/OpenGLRenderer: Swap behavior 2
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+W/InputMethodManager: startInputReason = 1
+I/ViewRootImpl: jank_removeInvalidNode jank list is null
+W/InputMethodManager: startInputReason = 5
+W/testapplicatio: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+E/: [ZeroHung]zrhung_get_config: Get config failed for wp[0x0008]
+W/System: A resource failed to call close.
+W/testapplicatio: Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+W/testapplicatio: Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+D/AwareBitmapCacher: handleInit switch not opened pid=25380
+I/testapplicatio: Starting profile saver IsSaveProfileNow end.
+I/ViewRootImpl: jank_removeInvalidNode all the node in jank list is out of time
+V/AudioManager: playSoundEffect   effectType: 0
+V/AudioManager: querySoundEffectsEnabled...
+I/IDO_CMD: [BIND_UNBIND] start to forceUnbind...
+I/DeviceSharedPreferences: clearDataIfUnbindbind_info_default
+I/DEBUG LOG: [jni_protocol.cpp] [Java_com_veryfit_multi_nativeprotocol_Protocol_SetMode] [line 245] SysModeSet = 0x0
+I/DEBUG LOG: [protocol_data.c] [protocol_set_mode] [line 25] set unbind mode
+I/DEBUG LOG: [protocol_v3_health_data_save.c] [protocol_v3_health_data_save_clear_all] [line 485] protocol_v3_health_data_save_clear_all
+I/DEBUG LOG: [data_storage.c] [data_storage_write] [line 44] data_storage_write /data/user/0/com.example.mytestapplication/files/v3_sync_head_count success
+I/DEBUG LOG: [jni_protocol.cpp] [Java_com_veryfit_multi_nativeprotocol_Protocol_WriteJsonData] [line 544] write json evt = to string error , type = 5514
+I/DEBUG LOG: [protocol_v3_health_client.c] [protocol_v3_health_client_reset_sync_offset] [line 359] protocol_v3_health_client_reset_sync_offset
+I/DEBUG LOG: [data_storage.c] [data_storage_write] [line 44] data_storage_write /data/user/0/com.example.mytestapplication/files/v3_health success
+I/DEBUG LOG: [protocol_v3_health_data_save.c] [protocol_v3_health_data_save_clear_all] [line 485] protocol_v3_health_data_save_clear_all
+I/DEBUG LOG: [data_storage.c] [data_storage_write] [line 44] data_storage_write /data/user/0/com.example.mytestapplication/files/v3_sync_head_count success
+I/IDO_CMD: [BIND_UNBIND] force unbind ok!
+I/BASE_CONNECT_LOG: BLEManager->to disConnect
+I/BASE_CONNECT_LOG: BLEManager->startScanDevices.
+I/BASE_CONNECT_LOG: [ScanManager] startScanDevices()
+I/BASE_CONNECT_LOG: [ScanManager] phone has paired list:
+I/BluetoothAdapter: getBluetoothLeScanner
+E/BASE_CONNECT_LOG: [NewScanner]  NORMAL scan
+D/BluetoothAdapter: isLeEnabled(): ON
+D/BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=4 mScannerId=0
+D/TAG: scanCB onStart
+D/BluetoothManager: getConnectedDevices
+I/BASE_CONNECT_LOG: [ScanManager] to get bond with phone list.
+I/BASE_CONNECT_LOG: [ScanManager] this task of scan is finished
+I/BluetoothAdapter: getBluetoothLeScanner
+D/BluetoothAdapter: isLeEnabled(): ON
+D/TAG: scanCB onScanFinished
